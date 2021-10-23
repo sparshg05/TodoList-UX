@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&family=Signika:wght@300;700&family=Yantramanav&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    height: 600px;
+    margin-top: 120px;
+    /* border: 1px solid red; */
+}
+.upper-body{
+    display: flex;
+    justify-content:space-between;
+    height: 90px;
+    /* border: 2px solid red; */
+}
+h1{
+    font-size: 3.6rem;
+    font-family: 'Signika', sans-serif;
+}
+.add-list-box{
+    display: flex;
+    /* border: 1px solid green; */
+}
+.plus{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 22px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 18px;
+    color: white;
+}
+.plus-inner{
+    height: 17px;
+    width: 20px;
+    left: 12px;
+    top: 3px;
+    /* border: 1px solid green; */
+    position: relative;
+    font-size: 28px;
+}
+.lower-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 45px;
+    margin-top: 20px;
+}
+.card-box{
+    
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px 12px #aaaaaa;
+}
+h2{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: red;
+}
+.C-task{
+    margin: 30px 6px 20px 32px;
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through;
+    font-family: 'Yantramanav', sans-serif;
+}
+p{
+    margin: -21px 6px 5px 33px;
+    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
+}
+.square{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.connect-pages{
+    display: inline-block;
+    position: absolute;
+    bottom: 135px;
+    right: 776px;
+    background-color: aquamarine;
+}
